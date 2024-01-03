@@ -1,0 +1,32 @@
+
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+/* body {
+  /* background: url("C:\Users\User\new-website\public\Weather.png"); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+} */ 
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh; /* Adjust as needed */
+    background: #fff; /* White background color */
+  }
+  
+.link.active {
+  border-bottom: 2px solid #1f099e;
+}
+
+/* Other Styles (form, buttons, media queries, etc.) */
+/* ... */

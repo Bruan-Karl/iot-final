@@ -1,0 +1,99 @@
+/* components/auth/SignUp.css */
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin: 30px auto; /* Center the form horizontally with auto margins */
+  /* Remove the margin-left and margin-top properties */
+}
+
+.sign-up1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  height: 360px;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin: 150px auto; /* Center the form horizontally with auto margins and adjust top margin */
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color:rgb(0, 0, 0);
+  }
+  
+  input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+
+  input:hover{
+   border-color:  #7a0099;
+  }
+  
+  button {
+    flex: 1; /* Expand the button to take available space */
+    padding: 10px;
+    background-color: #eb99ff; /* Change background color */
+    color: #fff; /* Change text color */
+    margin-top: 10px; /* Add margin to separate from the sign-up button */
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #7a0099;
+  }
+  
+
+  /* #login_btn {
+    position: relative;
+    border: 2px solid rgb(139, 80, 118);
+    border-radius: 30px;
+    margin-top: 20px;
+} */
+
+
+#login_btn1 {
+  position: relative;
+  border: 2px solid rgb(139, 80, 118);
+  border-radius: 30px;
+  margin-top: 20px;
+  left: 5px; /* Adjust the left position as needed */
+}
+
+  #signup_btn {
+    position: relative; /* Change to relative positioning */
+    border: 2px solid rgb(139, 80, 118);
+    border-radius: 30px;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+
+
+  #signup_label{
+    color:rgb(0, 0, 0);
+  }
